@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{Company Name} Presentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 900px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 36px;
+            color: #cc0000;
+        }
+        h2 {
+            font-size: 24px;
+            margin-top: 20px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        .highlight {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        .recent-highlights {
+            margin-top: 20px;
+        }
+        .recent-highlights ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{Company Name}</h1>
+        
+        <h2>Company Overview</h2>
+        <table>
+            <tr>
+                <th>Company Name</th>
+                <td>{Company Name}</td>
+            </tr>
+            <tr>
+                <th>Sector</th>
+                <td>Financial analytics / cashflow management</td>
+            </tr>
+            <tr>
+                <th>Product</th>
+                <td>{Product Description one liner}</td>
+            </tr>
+        </table>
+
+        <h2>Investment Summary</h2>
+        <table>
+            <tr>
+                <th>Date of first investment</th>
+                <td>{Date of investment}</td>
+            </tr>
+            <tr>
+                <th>Aggregate investment</th>
+                <td>{Amount of investment}</td>
+            </tr>
+            <tr>
+                <th>Investment Type</th>
+                <td>{Type of investment / instrument}</td>
+            </tr>
+        </table>
+
+        <h2>Financial Summary (Rs million)</h2>
+        <table>
+            <tr>
+                <th></th>
+                <th>Jan-Mar '22 (Quarter)</th>
+                <th>Jan-Mar '21 (Quarter)</th>
+                <th>FY 22-23 (annual)</th>
+                <th>FY 21-22 (annual)</th>
+            </tr>
+            <tr>
+                <td class="highlight">No. of orders</td>
+                <td>{Jan-Mar 22 Quarter Orders}</td>
+                <td>{Jan-Mar 21 Quarter Orders}</td>
+                <td>{FY 22-23 Annual Orders}</td>
+                <td>{FY 21-22 Annual Orders}</td>
+            </tr>
+            <tr>
+                <td class="highlight">Revenue</td>
+                <td>{Jan-Mar 22 Quarter Revenue}</td>
+                <td>{Jan-Mar 21 Quarter Revenue}</td>
+                <td>{FY 22-23 Annual Revenue}</td>
+                <td>{FY 21-22 Annual Revenue}</td>
+            </tr>
+            <tr>
+                <td class="highlight">Contribution</td>
+                <td>{Jan-Mar 22 Quarter Contribution}</td>
+                <td>{Jan-Mar 21 Quarter Contribution}</td>
+                <td>{FY 22-23 Annual Contribution}</td>
+                <td>{FY 21-22 Annual Contribution}</td>
+            </tr>
+            <tr>
+                <td class="highlight">EBITDA</td>
+                <td>{Jan-Mar 22 Quarter EBITDA}</td>
+                <td>{Jan-Mar 21 Quarter EBITDA}</td>
+                <td>{FY 22-23 Annual EBITDA}</td>
+                <td>{FY 21-22 Annual EBITDA}</td>
+            </tr>
+        </table>
+
+        <div class="recent-highlights">
+            <h2>Recent Highlights:</h2>
+            <ul>
+                <li>{Interesting highlight 1}</li>
+                <li>{Interesting highlight 2}</li>
+                <li>{And more ...}</li>
+
+            </ul>
+        </div>
+
+        <div class="recent-highlights">
+            <h2>Key Points From Investor Presentation:</h2>
+            <ul>
+                <li>{point 1}</li>
+                <li>{point 2}</li>
+                <li>{And many more ...}</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
