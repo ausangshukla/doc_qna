@@ -2,3 +2,6 @@ pymupdf
 openai
 python-dotenv
 htmldocx
+requests
+fastapi
+uvicorn

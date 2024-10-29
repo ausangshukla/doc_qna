@@ -33,17 +33,17 @@ class PromptBuilder:
     def read_kpi_file(self):
         """Reads key financial metrics from the KPI PDF."""
         kpi_text = self.extract_text_from_pdf(self.kpi_pdf)
-        return f"<KPI File Start>{kpi_text}<KPI File End>"
+        return f"<File1 Start>{kpi_text}<File1 End>"
 
     def read_investor_presentation(self):
         """Reads company overview and other details from the Investor Presentation."""
         investor_text = self.extract_text_from_pdf(self.investor_pdf)
-        return f"<Investor Presentation Start>{investor_text}<Investor Presentation End>"
+        return f"<File2 Start>{investor_text}<File2 End>"
 
     def read_portfolio_investments(self):
         """Reads investment details from the Portfolio Investments file."""
         portfolio_text = self.extract_text_from_pdf(self.portfolio_pdf)
-        return f"<Portfolio Investments Start>{portfolio_text}<Portfolio Investments End>"
+        return f"<File3 Start>{portfolio_text}<File3 End>"
 
     def read_html_template(self):
         """

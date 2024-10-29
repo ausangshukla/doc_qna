@@ -3,4 +3,5 @@ docs/
 db/
 logs/
 venv/
+results/
 __pycache__/
